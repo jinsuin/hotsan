@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>팀 멤버 등록</title>
+</head>
+
+
+<body>
+	<h1>팀 멤버 등록</h1>
+
+
+	<form method="POST" action="/getandpostreport">
+		<table Border="1">
+			<tr>
+				<td>이름</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>학번</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>전화번호</td>
+				<td><input type="text" name="num"></td>
+			</tr>
+			<tr>
+				<td>메일주소</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>카카오톡 아이디</td>
+				<td><input type="text" name="kakaoid"></td>
+			</tr>
+			<tr>
+				<td>팀장 여부</td>
+				<td><input type="checkbox" name="chk_info" value="true"></td>
+			</tr>
+			<tr>
+				<td>GitHub id</td>
+				<td><input type="text" name="gitid"></td>
+			</tr>
+			</br>
+
+		</table>
+		<input type="SUBMIT" value="팀원 등록">
+	</form>
+
+	<a href="index.html">처음으로</a>
+</body>
+</html>
